@@ -12,9 +12,7 @@ function init(){
 
 function gerar(){	
 	saida.innerHTML = "class " + classe.value +"{\n" + gerarEscopo() + "\n" + gerarCon() + "\n" + gerarMet() + "\n}";
-	autoGrow(saida)
-	// constru.innerHTML = gerarCon()	
-	// autoGrow(constru)
+	autoGrow(saida)	
 }
 
 function gerarMet(){
@@ -52,7 +50,7 @@ function gerarEscopo(){
 	let strSaida = "";
 	let visib = document.querySelector('input[name="visib-atributos"]:checked').value
 	for(i=0; i<a.length; i++){				
-		strSaida += visib+" "+a[i]+"; \n";		
+		strSaida += visib+" $"+a[i]+"; \n";		
 	}	
 	return strSaida;
 
