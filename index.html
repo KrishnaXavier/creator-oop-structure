@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Criador de Metodos</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+</head>
+<body>
+	<div>
+		<h1 class="titulo">Criador de Métodos de PHP OO</h1>
+	</div>
+	<div class="entrada">
+		<textarea rows="10" cols="50" id="entrada" placeholder="id, nome, email, senha">id, nome, email, senha</textarea>	
+	</div>
+
+	<div class="controle">		
+		<div>
+			<input type="radio" name="visibilidade" id="visibilidade" value="public" checked> Public
+			<input type="radio" name="visibilidade" id="visibilidade" value="private"> Private
+			<input type="radio" name="visibilidade" id="visibilidade" value="protected"> Protected
+		</div>
+
+		<div>
+			<button id="criar">criar metodos</button>	
+		</div>
+	</div>
+
+	<div class="saida">	
+		<h3>Construtor</h3>	
+		<textarea rows="10" cols="50" id="construturo"></textarea>		
+		<h3>Métodos</h3>	
+		<textarea rows="10" cols="50" id="saida"></textarea>		
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
