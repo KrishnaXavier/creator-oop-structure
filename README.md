@@ -1,4 +1,4 @@
 # Creator OOP Structure
 
 demo
-<img src="img/demo.png">
+<img src="img/demo2.png">
