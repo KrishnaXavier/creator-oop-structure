@@ -9,14 +9,23 @@
 		<h1 class="titulo">Criador de Métodos de PHP OO</h1>
 	</div>
 	<div class="entrada">
+		<h3>Nome da Classe: <input type="text" name="classe" id="classe" value="Usuario"></h3>
+		<h3>Atributos</h3>	
 		<textarea rows="10" cols="50" id="entrada" placeholder="id, nome, email, senha">id, nome, email, senha</textarea>
 
 		<div>		
 			<div>
 				<h3>Visibilidade dos Métodos</h3>
-				<input type="radio" name="visibilidade" id="visibilidade" value="public" checked> Public
-				<input type="radio" name="visibilidade" id="visibilidade" value="private"> Private
-				<input type="radio" name="visibilidade" id="visibilidade" value="protected"> Protected
+				<input type="radio" name="visib-metodos" id="visib-metodos" value="public" checked> Public
+				<input type="radio" name="visib-metodos" id="visib-metodos" value="private"> Private
+				<input type="radio" name="visib-metodos" id="visib-metodos" value="protected"> Protected
+			</div>
+
+			<div>
+				<h3>Visibilidade dos Atributos</h3>
+				<input type="radio" name="visib-atributos" id="visib-atributos" value="public"> Public
+				<input type="radio" name="visib-atributos" id="visib-atributos" value="private" checked> Private
+				<input type="radio" name="visib-atributos" id="visib-atributos" value="protected"> Protected
 			</div>
 
 			<div>
@@ -27,10 +36,8 @@
 	
 
 	<div class="saida">	
-		<h3>Construtor</h3>	
-		<textarea rows="10" cols="50" id="construturo"></textarea>		
-		<h3>Métodos</h3>	
-		<textarea rows="10" cols="50" id="saida"></textarea>		
+		<h3>Saída: </h3>
+		<textarea rows="10" cols="100" id="saida"></textarea>				
 	</div>
 
 	<script type="text/javascript" src="js/script.js"></script>
