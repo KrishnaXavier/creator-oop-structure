@@ -11,10 +11,11 @@ function init(){
 }
 
 function gerar(){
-	if(classe.value != ""){		
+	if(classe.value != ""){
+		let strClasse = classe.value.charAt(0).toUpperCase() + classe.value.substr(1);
 		strSaida = 
 		"class " + 
-		classe.value +
+		strClasse +
 		"{\n";
 
 		if(entrada.value != ""){
