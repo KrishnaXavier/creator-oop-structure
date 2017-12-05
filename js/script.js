@@ -14,6 +14,7 @@ function gerar(){
 	if(classe.value != ""){
 		let strClasse = classe.value.charAt(0).toUpperCase() + classe.value.substr(1);
 		strSaida = 
+		"<?php \n" +
 		"class " + 
 		strClasse +
 		"{\n";
